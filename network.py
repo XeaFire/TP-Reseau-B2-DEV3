@@ -62,5 +62,5 @@ output = str(logstatus) + str(logoutput)
 if not os.path.isdir(logfolder):
     os.mkdir(logfolder)
 f = open(logfile, "a")
-f.write(output + "\n")
+f.write(str(current_time) + " " + output + "\n")
 f.close()
