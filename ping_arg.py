@@ -7,6 +7,7 @@ def ping_arg():
         print("Il manque un argument'")
     else:
         os.system(f"ping {argv[1]}")
+        return 
 
 if __name__ == "__main__":
     ping_arg()

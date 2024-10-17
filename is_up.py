@@ -13,7 +13,7 @@ def function_is_up(value):
             print("UP !")
         else:
             print("DOWN !")
-    
+    return f"Command ping called successfully with argument : {value}"
 
 if __name__ == "__main__":
     function_is_up(argv[1])
