@@ -7,7 +7,7 @@ import os
 if os.name == 'nt':
     oswifi = "Wi-Fi"
 elif os.name == 'posix':
-    oswifi = "System enp0s3"
+    oswifi = "enp0s3"
 
 def function_get_ip():
     scan = psutil.net_if_addrs()
